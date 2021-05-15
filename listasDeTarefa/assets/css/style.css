@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border-sizing:border-box;
+}
+body{
+    background-color: #F2F2F2;
+}
+
+/*Centralizando o conteúdo*/
+.content-center{
+    background-color: #fff;
+    width: 100%;
+    max-width:300px;
+    margin:auto;/*Calcula todas as margins e deixa todas dos mesmos tamanho*/
+    padding:20px;
+    border-radius: 20px;
+}
+
+/*Titulos*/
+h1{
+    font-family: cursive;
+}
+/*Lista*/
+.to-do{
+    list-style:none;
+    padding:0;
+}
+
+.to-do li{
+    padding:10px;
+    border-bottom:#CCC 1px solid;
+}
+
+.to-do li input{
+    width:initial;
+    margin-right:10px;
+}
+
+.to-do li.complete{
+    text-decoration:line-through;
+    color:red;
+    cursor:not-allowed;
+}
+
+/*Inputs/Buttons*/
+.content-center input,
+.content-center button{
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+    border: none;
+    outline: none;/*Borda que aparecia quando clicava*/
+}
+.content-center input{
+    border-bottom: #ccc solid 2px;
+    margin-bottom: 10px;
+}
+.content-center input:focus{ /*Quando o foco(Clique) for no input*/
+    border-bottom: #ff6600 solid 2px;
+}/*Inputs/Buttons*/
+.content-center input,
+.content-center button{
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+    border: none;
+    outline: none;/*Borda que aparecia quando clicava*/
+}
+.content-center input{
+    border-bottom: #ccc solid 2px;
+    margin-bottom: 10px;
+}
+.content-center input:focus{ /*Quando o foco(Clique) for no input*/
+    border-bottom: #ff6600 solid 2px;
+}
+
+.to-do button{
+    width: initial;
+    color:#FFF;
+    background:red;
+    float:right;
+    max-width:30px;
+}
