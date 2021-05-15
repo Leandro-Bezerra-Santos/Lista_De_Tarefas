@@ -2,7 +2,7 @@
 
 <h2>Informações</h2>
 
-<p>Projeto feito no curso juntamente com a <em>Hcode Trinamentos</em></p>
+<p>Projeto feito no curso juntamente com a <em>Hcode Treinamentos</em></p>
 
 <h3>Tecnologias/linguagens</h3>
 
